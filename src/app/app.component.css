@@ -1,3 +1,25 @@
 body{
     background-color:rgb(235, 221, 177)
 }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-35%);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 220px;
+}
+
+a {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100px;
+    font-size: large;
+}
