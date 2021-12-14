@@ -3,7 +3,7 @@
   <div *ngFor = "let meme of memes" class="meme-section">
     <h3>{{meme.name}}</h3>
     <!-- <hr/> -->
-      <img src="{{meme.url}}"> 
+      <img class="wiggle" (click)="onShow($event)" id="{{meme.id}}" src="{{meme.url}}"> 
   </div>
 
 </body>
